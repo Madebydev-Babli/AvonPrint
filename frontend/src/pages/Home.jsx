@@ -40,7 +40,7 @@ export default function Home() {
 
           <div className="relative">
             {/* CMYK squares behind heading */}
-            <div className="absolute -left-10 -top-8 opacity-55 pointer-events-none">
+           <div className="absolute -left-4 -top-6 opacity-55 pointer-events-none md:-left-10 md:-top-8">
               <div className="cmyk-square cmyk-yellow" style={{ width: 150, height: 150 }} />
               <div className="cmyk-square cmyk-cyan" style={{ width: 150, height: 150, left: 50, top: 40 }} />
               <div className="cmyk-square cmyk-magenta" style={{ width: 150, height: 150, left: 0, top: 80 }} />
@@ -87,7 +87,7 @@ export default function Home() {
               }}
             />
 
-            <div className="absolute -right-12 -top-8 opacity-70">
+            <div className="absolute right-0 -top-4 opacity-70 md:-right-12 md:-top-8">
               <div className="cmyk-square cmyk-magenta" style={{ width: 110, height: 110 }} />
               <div className="cmyk-square cmyk-cyan" style={{ left: 40, top: -10, width: 110, height: 110 }} />
               <div className="cmyk-square cmyk-yellow" style={{ left: 20, top: 40, width: 110, height: 110 }} />
