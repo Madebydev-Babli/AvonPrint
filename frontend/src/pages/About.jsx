@@ -61,28 +61,29 @@ export default function About() {
           </div>
 
           {/* TEXT BLOCK */}
-          <div>
-            <h2 className="text-3xl font-bold text-[#1B1B1B] mb-3">
-              Crafting Prints With Passion
-            </h2>
-            <p className="text-[#4A4A4A] leading-relaxed">
-              For over a decade, we have specialized in delivering premium printing
-              solutions — from elegant wedding invitations to corporate stationery and
-              brand identity materials. Our focus is simple:
-            </p>
+          <div className="space-y-3 md:space-y-4 px-2 md:px-0">
+  <h2 className="text-xl md:text-3xl font-bold text-[#1B1B1B]">
+    Crafting Prints With Passion
+  </h2>
 
-            <ul className="mt-4 space-y-2 text-[#3B3B3B]">
-              <li>✔ Perfect color accuracy (CMYK optimized)</li>
-              <li>✔ Modern printing technologies</li>
-              <li>✔ High-quality materials & textures</li>
-              <li>✔ Fast delivery & professional finishing</li>
-            </ul>
+  <p className="text-sm md:text-base text-[#4A4A4A] leading-relaxed">
+    For over a decade, we have specialized in delivering premium printing
+    solutions — from elegant wedding invitations to corporate stationery and
+    brand identity materials. Our focus is simple:
+  </p>
 
-            <p className="mt-4 text-[#4A4A4A]">
-              Whether it's a one-time print or a bulk business order, our team ensures
-              every project gets the attention it deserves.
-            </p>
-          </div>
+  <ul className="mt-2 md:mt-4 space-y-1.5 md:space-y-2 text-sm md:text-base text-[#3B3B3B]">
+    <li>✔ Perfect color accuracy (CMYK optimized)</li>
+    <li>✔ Modern printing technologies</li>
+    <li>✔ High-quality materials & textures</li>
+    <li>✔ Fast delivery & professional finishing</li>
+  </ul>
+
+  <p className="text-sm md:text-base text-[#4A4A4A]">
+    Whether it's a one-time print or a bulk business order, our team ensures
+    every project gets the attention it deserves.
+  </p>
+</div>
         </section>
 
         {/* VALUES SECTION */}
