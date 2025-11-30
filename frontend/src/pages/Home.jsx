@@ -66,12 +66,12 @@ export default function Home() {
               Price Calculator
             </button>
 
-            <a
-              href="/services"
+            <Link
+              to="/services"
               className="px-6 py-3 rounded-2xl border border-[#DCCEB3] hover:bg-white/70 transition shadow-sm font-medium"
             >
               View Services
-            </a>
+            </Link>
           </div>
         </div>
 
