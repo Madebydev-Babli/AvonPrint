@@ -15,14 +15,6 @@ export default function About() {
   </div>
 </div>
 
-     <div className="absolute top-4 right-4 md:-top-0 md:right-60 opacity-40 scale-90 pointer-events-none z-0">
-  <div className="relative">
-    <div className="cmyk-square cmyk-yellow" style={{ width: 120, height: 120 }} />
-    <div className="cmyk-square cmyk-cyan absolute" style={{ width: 120, height: 120, left: 40, top: 30 }} />
-    <div className="cmyk-square cmyk-magenta absolute" style={{ width: 120, height: 120, left: 0, top: 60 }} />
-  </div>
-</div>
-
       
       {/* 🎨 CMYK BOTTOM RIGHT */}
       <div className="absolute bottom-4 right-4 md:bottom-12 md:right-20 opacity-40 scale-90 pointer-events-none z-0">
