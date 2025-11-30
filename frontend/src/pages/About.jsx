@@ -7,32 +7,31 @@ export default function About() {
     <div className="pt-16 pb-24 min-h-screen relative overflow-hidden" style={{ background: "#F7F4EF" }}>
 
       {/* 🎨 CMYK TOP LEFT */}
-      <div className="absolute -top-10 -left-10 opacity-40 scale-90 pointer-events-none z-0">
-        <div className="relative">
-          <div className="cmyk-square cmyk-yellow" style={{ width: 150, height: 150 }} />
-          <div className="cmyk-square cmyk-cyan absolute" style={{ width: 150, height: 150, left: 50, top: 40 }} />
-          <div className="cmyk-square cmyk-magenta absolute" style={{ width: 150, height: 150, left: 0, top: 80 }} />
-        </div>
-      </div>
+      <div className="absolute -top-6 -left-4 md:-top-10 md:-left-10 opacity-40 scale-90 pointer-events-none z-0">
+  <div className="relative">
+    <div className="cmyk-square cmyk-yellow" style={{ width: 120, height: 120 }} />
+    <div className="cmyk-square cmyk-cyan absolute" style={{ width: 120, height: 120, left: 40, top: 30 }} />
+    <div className="cmyk-square cmyk-magenta absolute" style={{ width: 120, height: 120, left: 0, top: 60 }} />
+  </div>
+</div>
 
-      <div className="absolute -top-0 right-60 opacity-40 scale-90 pointer-events-none z-0">
-        <div className="relative">
-          <div className="cmyk-square cmyk-yellow" style={{ width: 150, height: 150 }} />
-          <div className="cmyk-square cmyk-cyan absolute" style={{ width: 150, height: 150, left: 50, top: 40 }} />
-          <div className="cmyk-square cmyk-magenta absolute" style={{ width: 150, height: 150, left: 0, top: 80 }} />
-        </div>
-      </div>
+     <div className="absolute top-4 right-4 md:-top-0 md:right-60 opacity-40 scale-90 pointer-events-none z-0">
+  <div className="relative">
+    <div className="cmyk-square cmyk-yellow" style={{ width: 120, height: 120 }} />
+    <div className="cmyk-square cmyk-cyan absolute" style={{ width: 120, height: 120, left: 40, top: 30 }} />
+    <div className="cmyk-square cmyk-magenta absolute" style={{ width: 120, height: 120, left: 0, top: 60 }} />
+  </div>
+</div>
 
       
       {/* 🎨 CMYK BOTTOM RIGHT */}
-      <div className="absolute bottom-50 right-150 opacity-40 scale-90 pointer-events-none translate-y-12 translate-x-12 z-0">
-        <div className="relative">
-          <div className="cmyk-square cmyk-yellow" style={{ width: 150, height: 150 }} />
-          <div className="cmyk-square cmyk-cyan absolute" style={{ width: 150, height: 150, left: 50, top: 40 }} />
-          <div className="cmyk-square cmyk-magenta absolute" style={{ width: 150, height: 150, left: 0, top: 80 }} />
-        </div>
-      </div>
-
+      <div className="absolute bottom-4 right-4 md:bottom-12 md:right-20 opacity-40 scale-90 pointer-events-none z-0">
+  <div className="relative">
+    <div className="cmyk-square cmyk-yellow" style={{ width: 120, height: 120 }} />
+    <div className="cmyk-square cmyk-cyan absolute" style={{ width: 120, height: 120, left: 40, top: 30 }} />
+    <div className="cmyk-square cmyk-magenta absolute" style={{ width: 120, height: 120, left: 0, top: 60 }} />
+  </div>
+</div>
       {/* CONTENT */}
       <div className="relative z-10">
 
