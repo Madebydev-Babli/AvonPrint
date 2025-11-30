@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+.cmyk-square {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  border-radius: 14px;
+  mix-blend-mode: multiply;
+  transform: rotate(-8deg);
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.04));
+  opacity: 0.75;
+}
+.cmyk-cyan { background: rgba(0, 160, 225, 0.85); }
+.cmyk-magenta { background: rgba(225, 0, 118, 0.82); }
+.cmyk-yellow { background: rgba(255, 205, 0, 0.85); }
