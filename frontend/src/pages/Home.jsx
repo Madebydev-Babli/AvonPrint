@@ -11,6 +11,7 @@ import letterhead from "../assets/letter.jfif";
 import poster from "../assets/posters.webp";
 import stamp from "../assets/Stamps.webp";
 import stationery from "../assets/stationery.jfif";
+import { Link } from "react-router-dom";
 
 const services = [
   { title: "Wedding Cards", desc: "Premium designs & luxury paper", accent: "magenta", image: wedding },
