@@ -2,7 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppFloat() {
-  const phone = "+916009570452";
+  const phone = "+917383521849";
   const whatsappUrl = `https://wa.me/91${phone.replace(
     /\D/g,
     ""
