@@ -152,7 +152,7 @@ Price: ₹${price}`;
 
         {/* WHATSAPP BUTTON */}
         <a
-          href={`https://wa.me/916009570452?text=${encodeURIComponent(
+          href={`https://wa.me/917383521849?text=${encodeURIComponent(
             whatsappMessage
           )}`}
           target="_blank"
